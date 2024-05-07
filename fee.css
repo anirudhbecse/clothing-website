@@ -1,0 +1,215 @@
+::after ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.desc{
+    font-family: sans-serif;
+}
+.main-img{
+    float: right;   
+    margin:5px;
+    width: 35%;
+   
+}
+body{
+    margin: 0 100px;
+    background-color: powderblue;
+    background-image: url("https://media.istockphoto.com/id/1458215521/vector/line-icon-set-pattern-for-haute-couture-fashion.jpg?s=612x612&w=0&k=20&c=6WGriZvT6MeEZ0VW2-3ZPbeP0dai-u74v57bvYcCLaI=");
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 30px 0;
+   
+}
+.logo:hover{
+    scale: 1.2;
+    transition: scale 2s; 
+}
+.box:hover{
+    scale: 1.1;
+    transition: scale 2s;
+}
+.nav .logo h1{
+    text-shadow: 2px 2px 2px;black;
+    cursor: pointer;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: white;
+    align-content: normal;
+    line-height: 80px;
+}
+.nav .logo b{
+    color:white;
+    line-height: 80px;
+    font-size: 80px;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+.nav ul li{
+    margin-right: 30px;
+}
+
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signin{
+    background: transparent;
+    border: none;}
+
+.signup{
+background-color:#AED2FF;
+color: white;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+
+content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+overflow-wrap: normal;
+}
+.content .content-left{
+    display: block;
+    width: 100%;
+}
+
+.content .content-left .info{
+max-width: 100%;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+}
+.content .content-left .info h2{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.content .content-left .info p{
+    font-size: 23px;
+    line-height: 20px;
+    color: white;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+}
+.content .content-left .info button{
+    padding: 10px 23px;
+    background-color: #FFE5E5;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#explore:hover{
+    scale: 1.1;
+    transition: scale 1s;
+    border: 2px solid white;
+    color: black;
+}
+.content-right img{
+    display: block;
+    width: 50%;
+    height: auto;
+    float: right;
+    justify-content: right;
+    
+    
+}
+
+
+    .category h3{
+        font-size: 20 px;
+        font-weight: 600;
+        font-family: sans-serifs;
+        margin-bottom: 70px;
+    }
+   
+    
+    .category{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .category .grid{
+       
+        border: 1px solid rgb(164, 52, 136);
+        outline: 2px solid white;
+        width: 310px;
+        height: auto;
+        display: block;
+        padding: 10px;
+        border-radius: 10px;
+        position: relative;
+        background-color: #AED2FF;
+
+        }
+        .category .cardlist .grid .img{
+            width: 100px;
+            height: auto;
+            bottom: 140px;
+            left: 50px;
+            object-fit: cover;
+            object-position:center;
+
+            background-repeat: no-repeat;
+            position: absolute;
+            box-shadow: 0 20px rgb(121, 30, 30);
+            border-radius: 50%;
+        }
+        .category .cardlist .grid .foodtitle h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 8px;
+            font-family: sans-serif;
+        }
+        .category .grid  p{
+        font-size: 13px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        }
+        .category .grid .price span{
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+     .category.button{
+        background-color: blueviolet;
+        color: white;
+        float: right;
+
+     }
+     .buy-icon:hover{
+        background-color:#D8B4F8;
+        cursor: pointer;
+     }
+     a{
+        color: blueviolet;
+     }
+     .list-items:hover{
+        scale: 1.2;
+        transition: scale 2s; 
+        cursor: pointer;
+     }
+       /* ######  scroll bar ###### */
